@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:measureWithLargestChild="false"
+    android:minWidth="350dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Smart Switch"
+                android:textColor="#2A333A"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/launcher_ico"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/help_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw1"
+                    />
+
+                <TextView
+                    android:id="@+id/help_txt0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:text="@string/help_sw2"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/img_help9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/but_swon_press"
+                    />
+                <!--android:src="@drawable/help_arm" -->
+                <!-- android:src="@drawable/board_smart_termo" -->
+                <TextView
+                    android:id="@+id/help_txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw3"
+                    />
+                <!---->
+                <ImageView
+                    android:id="@+id/img_help1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    />
+                <!--android:src="@mipmap/ic_launcher_round" -->
+                <TextView
+                    android:id="@+id/help_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw4"
+                    />
+                <!--android:text="@string/help_light4"-->
+                <ImageView
+                    android:id="@+id/img_help2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/menu_pic_ico" />
+
+                <TextView
+                    android:id="@+id/help_chap2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="left"
+                    android:text="- Настройка сети"
+                    android:textColor="#2A333A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/help_txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw5"
+                    />
+                <!--android:text="@string/help_light5"-->
+                <ImageView
+                    android:id="@+id/img_help10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/launcher_ico"
+                    />
+                <!--android:src="@drawable/main_screen" -->
+                <TextView
+                    android:id="@+id/help_txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw6"
+                    />
+                <!--android:text="@string/help_light7"-->
+                <!-- -->
+                <TextView
+                    android:id="@+id/help_txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:autoLink="web"
+                    android:autoText="false"
+                    android:gravity="left"
+                    android:textColor="#2A333A"
+                    android:textSize="18sp"
+                    android:text="@string/help_sw7"
+                    />
+                <!--android:text="@string/help_light6"-->
+                <Button
+                    android:id="@+id/butOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#2A333A"
+                    android:text="OK!"
+                    android:textColor="#C4FBFE"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

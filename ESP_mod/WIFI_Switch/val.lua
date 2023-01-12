@@ -1,0 +1,10 @@
+numS= 10
+SSID= "DIRlinWIFI"
+PASS= "1969EvAn"
+vers= "EZ_dimm_2.0"
+mode= "serv"
+ipad= "___.___.___.___"
+inwd= "EZAP68c63aa78fed_62192168004001"
+cmd_= "work"
+mod_= "0"
+shif= "-10800"
